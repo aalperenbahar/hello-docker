@@ -1,10 +1,10 @@
 terraform {
-  required_providers {
-    docker = {
-      source  = "kreuzwerker/docker"
-      version = "~> 2.13.0"
-    }
-  }
+  #required_providers {
+   # docker = {
+    #  source  = "kreuzwerker/docker"
+     # version = "~> 2.13.0"
+   # }
+  #}
   cloud {
     organization = "aaalperenbahar"
 
