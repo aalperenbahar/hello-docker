@@ -6,7 +6,7 @@ terraform {
     }
   }
   cloud {
-    organization = "aalperenbahar"
+    organization = "aaalperenbahar"
 
     workspaces {
       name = "hello-docker"
