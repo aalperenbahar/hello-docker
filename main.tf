@@ -9,7 +9,7 @@ terraform {
     organization = "aaalperenbahar"
 
     workspaces {
-      name = "example-workspace"
+      name = "hello-docker"
     }
   }
 }
