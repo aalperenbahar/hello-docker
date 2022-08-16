@@ -5,6 +5,13 @@ terraform {
       version = "~> 2.13.0"
     }
   }
+  cloud {
+    organization = "aaalperenbahar"
+
+    workspaces {
+      name = "example-workspace"
+    }
+  }
 }
 
 provider "docker" {}
