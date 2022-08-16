@@ -79,7 +79,7 @@ jobs:
       run: terraform fmt -check
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
     - name: Terraform Init
-      run: terraform init -input=false
+      run: terraform init -input=true
     # Get.
     - name: Terraform Get
       run: terraform get
